@@ -1,0 +1,43 @@
+.example-parent {
+  border: 2px solid #DFA612;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.example-origin {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.example-draggable {
+  background-color: #f6ca07;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.example-dropzone {
+  background-color: #6DB65B;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#inputItem{
+  border-radius: 10px;
+  width: 400px;
+  height: 25px;
+}
+
+.btn{
+  color: red;
+  background-color: aliceblue;
+  height: 40px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+}
